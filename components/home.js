@@ -197,7 +197,7 @@ const Home = () => {
               <Text
                 style={{
                   color: '#d1d5db',
-                  fontWeight: 'semi-bold',
+                  fontWeight: '600',
                   fontSize: 18,
                 }}>
                 {' ' + location?.country}
@@ -258,7 +258,7 @@ const Home = () => {
                 <Text
                   style={{
                     color: 'white',
-                    fontWeight: 'semi-bold',
+                    fontWeight: '600',
                     fontSize: 16,
                     paddingHorizontal: 5,
                   }}>
@@ -279,7 +279,7 @@ const Home = () => {
                 <Text
                   style={{
                     color: 'white',
-                    fontWeight: 'semi-bold',
+                    fontWeight: '600',
                     fontSize: 16,
                     paddingHorizontal: 5,
                   }}>
@@ -300,7 +300,7 @@ const Home = () => {
                 <Text
                   style={{
                     color: 'white',
-                    fontWeight: 'semi-bold',
+                    fontWeight: '600',
                     fontSize: 16,
                     paddingHorizontal: 5,
                   }}>
@@ -354,7 +354,7 @@ const Home = () => {
                     <Text
                       style={{
                         color: 'white',
-                        fontWeight: 'semi-bold',
+                        fontWeight: '600',
                         fontSize: 28,
                       }}>
                       {item?.day?.avgtemp_c}°
